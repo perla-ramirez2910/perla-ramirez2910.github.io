@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CDN bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- link de los íconos de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="assets/brilliance.svg" type="image/x-icon">
+  <!-- google FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- archivo CSS -->
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Perla Ramírez Leonardo</title>
+</head>
+
+<body>
+
+  <!-- menú copiado de ejemplos de bootstrap -->
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+      <i class="bi bi-brilliance p-2"></i>
+      <span class="fs-4">Perla Ramírez Leonardo</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item boton-perfil"><a id="boton-perfil" href="#" class="nav-link active perfil" aria-current="page">Perfil</a></li>
+      <li class="nav-item"><a href="#hanging-icons" class="nav-link">Habilidades</a></li>
+      <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </header>
+  <!-- fin del header, menú superior -->
+
+  <main>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 rounded-circle" src="assets/Foto bolsa de trabajo.jpg" alt="Foto de perfil" width="200">
+        <h1 class="display-5 fw-bold text-body-emphasis">Perla Ramírez</h1>
+        <!-- texto typewriter -->
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <!--  AGREGAR DESCRIPCIÓN AAAAAAAAAAAA -->
+          <p class="lead mb-4">Qu Descripción de mí :$.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">Ir a mi CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fin del hero -->
+    <div class="caja-habilidades">
+
+    <!-- parte de las habilidades -->
+    <div class="habilidades container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Habilidades</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <!--ícono de la habilidad -->
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <i class="bi bi-laptop-fill px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Desarrollo Frontend</h3>
+            <p>He creado sitios web responsivos aplicando los conocimientos obtenidos durante el bootcamp de
+              Tecnolochicas PRO</p>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <i class="bi bi-mortarboard-fill px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Economista en proceso</h3>
+            <p>Concluí mis estudios de licenciatura en Economía y Finanzas y estoy cursando mi seminario de titulación
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <i class="bi bi-graph-up-arrow px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Analista presupuestal</h3>
+            <p>Con enfoque en egresos, he adquirido experiencia en el control y seguimiento presupuestal gracias a mi
+              estancia en la Secretaría de Administración y Finanzas de la CDMX</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fin de apartado de habilidades -->
+    </div>
+
+    <!-- tarjetas para proyectos con ejemplo de álbumes -->
+    <div id="proyectos" class="proyectos container mt-5">
+      <!-- Subtítulo de proyectos -->
+      <h2 class="pb-2 border-bottom">Proyectos</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="assets/Captura clon Pinterest.JPG"
+              alt="Vista del proyecto">
+            <!-- Se mantuvo la clase -->
+            <div class="card-body">
+              <p class="card-text">Clon de Pinterest.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                      href="https://pinterest-clon-eight-eta.vercel.app/">Ver</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                      href="https://github.com/perla-ramirez2910/pinterest-clon">Github</a></button>
+                </div>
+                <small class="text-body-secondary">HTML CSS JS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <img class="bd-placeholder-img card-img-top" src="assets/Captura primer sitioweb.JPG"
+              alt="Vista del proyecto">
+            <!-- Se mantuvo la clase -->
+
+            <div class="card-body">
+              <p class="card-text">Mi primer sitio web. Primer acercamiento a HTML y CSS.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                      href="https://primersitioweb-mm.vercel.app/">Ver</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                      href="https://github.com/perla-ramirez2910/PrimersitiowebMM">Github</a></button>
+                </div>
+                <small class="text-body-secondary">HTML CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PARA PROYECTO DE JAVA SCRIPT -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <!-- proyecto de JAVA SCRIPT      colocar IMAGEN PARA LA CARD-->
+            <img class="bd-placeholder-img card-img-top" src="" alt="Vista del proyecto">
+            <!-- Se mantuvo la clase -->
+
+            <div class="card-body">
+              <p class="card-text">This i BLOCK DE TAREAS longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- COLOCAR LIKNS DEL ÚLTIMO PROYECTO -->
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                      href="">Ver</a></button>
+
+                  <!-- DATOS DEL ÚLTIMO PROYECTO -->
+
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                      href="">Github</a></button>
+                </div>
+                <small class="text-body-secondary">HTML CSS JS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin de las cards de proyectos -->
+      </div>
+    </div>
+
+
+    <!-- TESTIMONIOS -->
+    <div id="testimonios" class="testimonios container mt-5">
+      <!-- subtítulo de apartadod e testimonios -->
+      <h2 class="pb-2 border-bottom">Testimonios</h2>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <!-- primer item -->
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <!-- se elimina la etiqueta de imagen del ejemplo y se cambia por la de card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Laura Patricia.jpg" class="card-img-top rounded-circle"
+                  alt="foto de perfil de Laura Patricia" width="180">
+                <h5 class="card-title text-center">Laura Rivera Soto</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Jefatura de Registro Presupuestal e
+                  Integración de Información</h6>
+                <div class="card-body">
+                  <p class="card-text text-center">Texto de mi jefa.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+          <!-- segundo item -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Enrique Montesinos.jpg" class="card-img-top rounded-circle"
+                  alt="Foto Enrique Montesinos">
+                <h5 class="card-title">Luis Enrique Montesinos</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Subdirector de Revisión y Seguimiento Presupuestal
+                </h6>
+                <div class="card-body">
+                  <p class="card-text text-center">Texto de mi jefe.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+          <!-- tercer item -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Anel Montes.jpg" class="card-img-top rounded-circle" alt="Foto Anel Montes">
+                <h5 class="card-title">Anel Montes de Oca</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Mentora en Tecnolochicas Pro</h6>
+                <div class="card-body">
+                  <p class="card-text text-center">Perla Ramírez muestra un rápido progreso en la adquisición de habilidades
+                    técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad
+                    de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de
+                    que Perla seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en
+                    el futuro.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+          <!-- cuarto item -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <!-- se elimina la etiqueta de imagen del ejemplo y se cambia por la de card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Aaron Calatayud.jpg" class="card-img-top rounded-circle"
+                  alt="foto de perfil de Aarón" width="180" height="400">
+                <h5 class="card-title text-center">Aarón Calatayud</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Analista Presupuestal</h6>
+                <div class="card-body">
+                  <p class="card-text text-center">Perla tiene un compromiso mostrando su interés por aprender de cualquier tema que se le presente. Es eficiente ya que la tarea que se le encomiende la resuelve sin ningún inconveniente. Está preparada para cualquier labor que se le encomiende.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Apartado de CONTACTO -->
+    <div id="contacto" class="px-4 py-5 my-5 text-center">
+      <i class="d-block mx-auto mb-4 bi bi-envelope-at fs-1"></i>
+      <h1 class="display-5 fw-bold text-body-emphasis">Contáctame</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Escríbeme para iniciar un nuevo proyecto.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:baz1ng@outlook.com">
+            <button id="btn-contacto" type="button" class="btn btn-outline-secondary btn-lg px-4">Envía un mensaje</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a target="_blank" href="https://www.linkedin.com/in/perla-ram%C3%ADrez-leonardo-344443323/" class="nav-link px-2"><i class="bi bi-linkedin"></i></a></li>
+      <li class="nav-item"><a target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fperla._.fldsmdfr%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR0XZUdXlIlI6ZTZjXTfFL8Tivz-P3fZ6E3UNbLDC6cl8NKeNDse1en0WTs_aem_xqP-XBst9BrBhUeWbA5Ibg&h=AT10t-0yuXB1CGgf59nhoWHdAsnUXIeFQzTIkTWAqLI8dNcl42-inPfvxiqWfYXw9kQMx5fRm3K793KQr2scsX_OHAe4sC12PMXoVwWVBiof0qgpFEr7mg0RGdzdggbYIrs7" class="nav-link px-2"><i class="bi bi-instagram"></i></a></li>
+      <li class="nav-item"><a target="_blank" href="https://wa.me/525564044972" class="nav-link px-2"><i class="bi bi-whatsapp"></i></a></li>
+      <li class="nav-item"><a target="_blank" href="https://github.com/perla-ramirez2910" class="nav-link px-2"><i class="bi bi-github"></i></a></li>
+      <!-- Agregar más redes si se desea -->
+      
+    </ul>
+    <p class="text-center">Creado por Perla Ramírez en el Bootcamp de 
+    <a href="https://tecnolochicas.mx/">Tecnolochicas Pro</a> </p>
+  </footer>
+
+
+  <!-- al final va el script de bootstrap porque son funcionalidades para lo elementos creados, es la orden para ejecutar la indicación -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- CDN tywriter -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- main JS -->
+  <script src="main.js"></script>
+
+
+
+</body>
+
+</html>

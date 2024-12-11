@@ -1,0 +1,60 @@
+*{
+    font-family: "Libre Baskerville", serif;;
+}
+header{
+    background-color: #466B73;
+}
+header a{
+    color: #161415;
+}
+.nav-item a{
+    color: #B0B1CF;
+}
+#boton-perfil{
+    background-color: #B0B1CF;
+}
+.nav-item a:hover{
+    color: #FC5E39;
+}
+#app{
+    color: #466B73;
+}
+.boton-cv{
+    background-color: #4D573F;
+    color: #D6B1C3;
+}
+.caja-habilidades{
+    background-color: #B0B1CF;
+    color: #4D573F;
+}
+.btn-proyecto{
+    background-color: #466B73;
+}
+.btn-proyecto a{
+    text-decoration: none;
+    color: #D6B1C3;
+}
+.card .card-title{
+    color: #FC5E39;
+}
+#contacto{
+    background-color: #4e8371;
+    color: #161415;
+}
+#contacto p{
+    color: #223636;
+}
+#btn-contacto{
+    background-color: #FC5E39;
+    color: #161415;
+}
+footer li a i{
+    color: #294b6b;
+}
+footer p{
+    color: #161415;
+}
+footer p a{
+    text-decoration: none;
+    color: #FC5E39;
+}
